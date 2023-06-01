@@ -42,6 +42,6 @@ app.post('/users', (req, res) => {
   });
 });
 
-app.listen(3000, () => {
+app.listen(3005, () => {
   console.log('Server đang chạy trên cổng 3000');
 });

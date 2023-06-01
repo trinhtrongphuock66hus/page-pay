@@ -20,7 +20,7 @@ signInButton.addEventListener("click", function() {
 
   // Gửi yêu cầu HTTP POST1 đến địa chỉ '/users'
   var xhttp2 = new XMLHttpRequest();
-  xhttp2.open("POST", "http://localhost:3000/users", true);
+  xhttp2.open("POST", "http://localhost:3005/users", true);
   xhttp2.setRequestHeader("Content-type", "application/json");
 
   // Gửi thông tin tài khoản và mật khẩu dưới dạng JSON
